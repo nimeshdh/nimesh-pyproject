@@ -14,3 +14,6 @@ new_text = text.replace("  ", " ")
 
 print("String after replacing double spaces:")
 print(new_text)
+
+#wap a prgram to fromat the following letter using escape 
+# letter ="Dear students, this python course is going well.THANKS!"
