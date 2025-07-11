@@ -1,4 +1,4 @@
-l1=[1,8,7,2,21,15]
+l1 = [1, 8, 7, 2, 21, 15]
 
 # l1.sort()
 # print(l1)
@@ -29,7 +29,9 @@ l1=[1,8,7,2,21,15]
 # l1.remove(7)
 # print(l1)
 
-# wap to store 7 fruits in alist enter by user 
+
+# questions
+# wap to store 7 fruits in alist enter by user
 
 
 fruits = []
@@ -39,7 +41,7 @@ for i in range(7):
 print("fruits  are:", fruits)
 
 
-#wap to accept the marks of 6 student and display them in sorted order
+# wap to accept the marks of 6 student and display them in sorted order
 student = []
 
 for i in range(6):
@@ -48,3 +50,12 @@ for i in range(6):
 student.sort()
 
 print("Sorted marks of students:", student)
+
+# wap to sum a list with 4
+numbers = [1, 2, 3, 4]
+
+total = sum(numbers)
+
+final_result = total + 4
+
+print("Sum of list + 4 is:", final_result)
