@@ -28,17 +28,23 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
-
+# Application definitioN
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    'django.contrib.sessions',      # sessions before messages
     'django.contrib.messages',
-    'django.contrib.sessions',
     'django.contrib.staticfiles',
-    'ecommerce'
+    'ecommerce',
+    'users',
+    'rest_framework',
+    'products',
+    'category',
+    'payment',
+    'orders',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
